@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 18px;
+  height: 100vh;
+  background: #2b2a2a;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em;
+  background: linear-gradient(170deg, black 50%, #139c7f 100%, transparent);
+}
+
+.container .logo {
+  width: 220px;
+}
+
+.container .context h1 {
+  margin: 0;
+  font-size: 70px;
+  color: #139c7f;
+}
+
+.container .context h2 {
+  padding: .5em;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.inner {
+  margin: 1em;
+  padding: 2em;
+  background: #1a1919;
+}
+
+.inner h1 {
+  color: #139c7f;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 6rem;
+  }
+  .logo {
+    width: 520px;
+  }
+}
+
+.box {
+  margin-top: .3em;
+  padding: 2em;
+  color: #c7c7c7;
+  background: #0f0f0f;
+}
+
+.box h1 {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 3em;
+}
+
+.box h1::before {
+  content: ' ';
+  position: absolute;
+  width: 35%;
+  height: 8px;
+  z-index: -1;
+  bottom: -.1em;
+  left: -.5em;
+  background: #17a2b8;
+  border-radius: 1em;
+}
+
+.box section {
+  color: white;
+}
+
+.box section .block {
+  padding: .5em;
+  background-color: #030303;
+}
+
+.box section .block p {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .box body {
+    text-align: left;
+    font-size: 20px;
+  }
+  .box p {
+    line-height: 1.8em;
+  }
+  .box .block {
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-rule-style: solid;
+            column-rule-style: solid;
+    -webkit-column-rule-color: #2b2b2b;
+            column-rule-color: #2b2b2b;
+  }
+  .box .block > * {
+    margin: 1em;
+  }
+  .box h1 {
+    font-size: 3rem;
+  }
+  .box h2 {
+    font-size: 2rem;
+    margin: 1em 0 1em;
+    padding-top: 1em;
+  }
+  .box .outer {
+    padding: 4em;
+  }
+  .box article {
+    padding: 2em;
+    background: #181818;
+  }
+}
+
+.faq {
+  margin: 1em;
+  padding: 2em;
+  background: #1a1919;
+}
+
+.faq h1 {
+  color: #139c7f;
+}
+
+.faq h3 {
+  color: #bebdbd;
+}
+
+.faq p {
+  color: grey;
+  padding-left: 1.5rem;
+}
+
+.about {
+  margin: 1em;
+  padding: 2em;
+  text-align: center;
+  background: #1a1919;
+}
+
+.about button {
+  width: calc(30% - 2em);
+  padding: .5em;
+  font-size: 1.3rem;
+  margin: 0;
+  background: #139c7f;
+  border: 0;
+}
+
+.about h1 {
+  color: #139c7f;
+}
+/*# sourceMappingURL=main.css.map */
